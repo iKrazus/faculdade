@@ -1,5 +1,5 @@
 def crip():
-    palavra = input("Digite uma palavra para criptografar: ")
+    palavra = input("Digite uma palavra para criptografar: ") #Esse aqui é um teste#
     cripto=' '
     for i in range(0,len(palavra)):
         cripto = cripto+chr(ord(palavra[i])+10)
